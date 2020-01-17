@@ -10,5 +10,9 @@ $ source .env/bin/activate
 
 $ pip install -r requirements.txt
 
-### Run archive  ploy3dview.py
+## Plot point cloud
 $ python3 ploy3dview.py
+
+## Choose point cloud and calculate volume
+$ python3 app.py
+
