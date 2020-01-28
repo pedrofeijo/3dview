@@ -14,5 +14,5 @@ $ pip install -r requirements.txt
 $ python3 ploy3dview.py
 
 ## Choose point cloud and calculate volume
-$ python3 app.py
+$ python3 main.py
 
