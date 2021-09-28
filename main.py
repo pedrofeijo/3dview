@@ -16,7 +16,7 @@ import glob
 
 #LER NUVEM DE PONTOS
 arquivo= "/home/feijo/Documents/carvao_ufc/pilhas_segmentadas/pilha1_chao.txt" 
-dados_df= np.loadtxt(arquivo, delimiter= ',')
+dados_df= np.loadtxt(arquivo, delimiter= ' ')
 # dados= dados_df[:,:3] # ajustar arquivo txt - (linha , coluna)
 dados=dados_df[dados_df[:,0].argsort()] #ordenar eixo x
 dados_x= dados[:,0]
