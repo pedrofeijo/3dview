@@ -1,7 +1,9 @@
 # Project Carvao # 
 ### Install Virtualenv
 $ python3 -m pip install --user virtualenv
+
 $ python3 -m venv env
+
 $ source env/bin/activate
 
 ### Generate point cloud using python
